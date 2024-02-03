@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+}
+.signin-main{
+    display: flex;
+    height:100%;
+}
+.signin-left{
+    width:50%;
+    height:max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(signin\ background.svg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+.left-content{
+    text-align: center;
+    font-size:23px;
+    color: white;
+}
+.signin-right{
+    width:50%;
+    padding: 60px 30px;
+    /* text-align: center; */
+}
+.signin-right-top{
+     text-align: start;
+
+}
+input{
+    width:60%;
+    padding:18px;
+    font-size:1rem;
+    border: 1px solid rgb(221, 221, 221);
+}
+.signin-right h3{
+    text-align: center;
+    font-size: 24px;
+    /* margin:6.4px auto -12.8px; */
+}
+.signin-right-top{
+    width:100%;
+    margin:2rem auto;
+}
+.form{
+    /* width:100%; */
+    padding:0 0 0 24%;
+    margin:0 auto;
+}
+button{
+    padding:12px 30px;
+    border-radius: 4px;
+    border-style:none ;
+    font-size:1rem;
+    color: rgb(153, 153, 153);
+    font-weight: 750;
+}
+.button-out{
+    margin-top:2.4rem;
+    text-align: center;
+}
+input:focus{
+    border-color:rgb(0, 157, 228);
+}
+
+
+.hr{
+    background: rgb(221, 221, 221);
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 1rem;
+    margin: 3.2rem 0px;
+}
+.middle-content{
+    padding:0 16px;
+    background-color: white;
+    color: rgb(187, 187, 187);
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding: 0px 1rem;
+    position: relative;
+    top: -3.2rem;
+    text-align: center;
+    left:46%;
+}
+.signin-bottom{
+    text-align: center;
+}
+.signin-bottom p{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+.signin-bottom p a{
+    text-decoration: none;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width:318px;
+}
+.signin-bottom img{
+width:40px;
+}
+.signin-lower{
+margin:40px 0 0 0;
+
+}
+.signin-bottom span:not(.signin-lower){
+    width:80%;
+    align-self: center;
+    margin: 10px 60px;
+    color:#444444;
+    flex-wrap: nowrap;
+    }
+    
