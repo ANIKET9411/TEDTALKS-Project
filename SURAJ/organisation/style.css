@@ -1,0 +1,34 @@
+.line{
+    margin: 20;
+    padding: 30;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    display: flex;
+}
+.colour{
+    background-color: azure;
+}
+.button{
+    background-color:wheat;
+    
+}
+ .third{
+    margin: 20;
+    padding: 30;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+} 
+.fifth{
+    /* width: 40vw; */
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   margin-right: 50;
+}
+.sixth{
+    margin-left: 50;
+}
