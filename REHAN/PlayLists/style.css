@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .navbar{
     width: 100%;
@@ -20,11 +23,12 @@
     align-items: center;
     justify-content: center;
     padding-left: 10%;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 .first_div p{
-    font-size: 25px;
+    color: grey;
+    font-size: 20px;
 }
 .second_div{
     margin: 0 5%;
@@ -33,7 +37,7 @@
     margin-bottom: 80px;
 }
 .second_div hr{
-    border: 5px solid rgb(203, 203, 203);
+    border: 5px solid rgb(227, 224, 224);
     border-radius: 2px;
 }
 .image_container{
@@ -46,6 +50,9 @@
     /* border: 2px solid green; */
     margin-top: 80px;
 }
+.div_img{
+    cursor: pointer;
+}
 .image img{
     height: 350px;
 }
@@ -57,11 +64,11 @@
     font-size: small;
 }
 .image_title p{
-    font-size: 18px;
+    font-size: 15px;
     margin: 15px 0;
 }
 .image_title h2{
-    font-size: 27px;
+    font-size: 25px;
 }
 .third_div{
     box-shadow: 2px 5px 10px #b6b6b6;
@@ -77,19 +84,37 @@
     margin: 0 5%;
     width: 90%;
 }
-.third_container h3{
-    font-size: 20px;
-    margin-right: 25px;
+.topic_head:hover{
+    color: #b6b6b6;
+    cursor: pointer;
 }
-.third_container p{
+.curator_head:hover{
+    color: #b6b6b6;
+    cursor: pointer;
+}
+.third_container h3{
+    font-size: 18px;
+    margin-right: 50px;
+}
+.third_container .topic{
+    font-size: 25px;
     position: absolute;
-    top: 47%;
-    right: 83.5%;
+    top: 42%;
+    right: 81%;
+}
+.third_container .topic:hover{
+    cursor: pointer;
+    color: #b6b6b6;
 }
 .third_container .curator{
+    font-size: 25px;
     position: absolute;
-    top: 47%;
-    right: 77.5%;
+    top: 42%;
+    right: 73.4%;
+}
+.third_container .curator:hover{
+    cursor: pointer;
+    color: #b6b6b6;
 }
 .fourth_div{
 margin-top: 20px;
@@ -104,6 +129,7 @@ margin-top: 20px;
     justify-content: space-between;
 }
 .fourth_img{
+    cursor: pointer;
     margin: 25px 0;
     width: 230px;
 }
@@ -119,7 +145,7 @@ margin-top: 20px;
 }
 
 .fourth_image_title h2{
-    font-size: 20px;
+    font-size: 18px;
 }
 .fourth_talk{
     margin: 10px 0;
@@ -135,6 +161,7 @@ margin-top: 20px;
     /* border: 2px solid green; */
 }
 .fifth_content{
+    cursor: pointer;
     justify-content: space-evenly;
     display: flex;
     padding: 100px 40%;
