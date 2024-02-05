@@ -35,14 +35,46 @@ header{
     position: fixed;
     z-index: 2;
     top: 65px;
-    left: -130vw;
-    padding: 8%;
+    left: -100vw;
     transition: transform 0.3s;
-    z-index: 5;
+    /* z-index: 5; */
     border-top: 3px solid #757575;
+    /* overflow: scroll; */
 }
+.mobileNav p{
+    margin-bottom:1.2rem;
+}
+.mobile-view{
+    overflow-y: scroll;
+    margin:2% 8%;
+    width:84%;
+    height:84Vh;
+}
+.mobilenav-items{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.mobilenav-items a{
+    width:40%;
+    margin-bottom:1.2rem;
+    text-decoration: none;
+    color:#121212;
+}
+.mobilenav-membership{
+    display: block;
+    text-align: center;
+    width:100%;
+    padding:15px 0;
+    color:white;
+    text-decoration: none;
+    background-color: #D91E18;
+}
+
 .openDrawer{
-    transform: translateX(110vw);
+    transform: translateX(100vw);
 }
 .animateBar1{
     animation: flipBar1 0.5s;
@@ -131,6 +163,7 @@ z-index: 25;
 .nav-right ul li a{
     background-color:white;
     color:#494949;
+    margin:0;
 }
 .nav-right a{
     color:white;
