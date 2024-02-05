@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .header{
     border: 2px solid black;
@@ -18,10 +21,12 @@
     /* border: 2px solid red; */
 }
 .first_container h1{
-    font-size: 50px;
+    font-weight: 200;
+    font-size: 45px;
     margin-bottom: 30px;
 }
 .first_container p{
+    font-weight: 300;
     margin-bottom: 30px;
     font-size: 20px;
 }
@@ -45,6 +50,7 @@
     /* border: 2px solid red; */
 }
 .second_image img{
+    cursor: pointer;
     height: 200px;
     width: 100%;
 }
@@ -55,21 +61,25 @@
     width: 100%;
 }
 .second_img_title h2{
-    font-weight: normal;
+    font-weight: 200;
     font-size: 30px;
 
 }
 .second_img_title p{
-    font-size: 17px;
+    font-size: 16px;
     margin: 10px 0;
 }
 .second_container button{
-    border: 1px solid grey;
+    cursor: pointer;
+    border: 1px solid rgb(182, 182, 182);
     font-weight: bold;
     font-size: 15px;
     width: 25%;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 12px 8px;
+    margin-top: 20px;
+}
+.second_container button:hover{
+    background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(136, 136, 136, 0.5) 100%);;
 }
 .footer{
     border: 2px solid black;
