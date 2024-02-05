@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,38 +19,81 @@
                 <div class="bar3"></div>
             </div>
             <div class="nav-left">
-                <img src="images/app-store.png"
+                <img src="https://th.bing.com/th/id/R.487e2f0cbdc1f38745b8bd5115b8f39a?rik=eXLE0qbETRvIsA&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fkut%2ffiles%2fstyles%2fx_large%2fpublic%2f201608%2fted_logo.png&ehk=Arz%2b%2fZUmvT0wzGvpmqujfUWWQkEtBEBjzolbKLTiTWk%3d&risl=&pid=ImgRaw&r=0"
                     alt="">
                 <a href="#">Ideas worth spreading</a>
             </div>
             <div class="nav-right">
                 <ul>
-                    <li>WATCH <div class="menu"></div>
-                    </li>
+                    <li><a href="REHAN\Ted_Talks\index.html">WATCH</a></li>
                     <li>DISCOVER</li>
-                    <li>ATTEND</li>
+                    <li><a href="./SURAJ/organisation/suraj.html">ATTEND</a></li>
                     <li>PARTICIPATE</li>
-                    <li>ABOUT</li>
-                    <li><a href="../signin/sign-in.html">SIGN IN</a></li>
+                    <li><a href="./ANANYA/our organisation/organisation.html">ABOUT</a></li>
+                    <li><a href="./Aniket/signin/sign-in.html">SIGN IN</a></li>
                 </ul>
                 <a href="#support">SUPPORT</a>
                 <i class="material-icons">search</i>
             </div>
         </header>
         <nav class="mobileNav">
-            <div class="mobilenav-items">
+            <div class="mobile-view">
                 <p>WATCH</p>
-                <h3>Ted talks</h3>
-                <h3>Playlists</h3>
-                <h3></h3>
-                <h3></h3>
-                <h3>TedX</h3>
-            </div>
-            <div class="mobilenav-items">DISCOVER</div>
-            <div class="mobilenav-items">ATTEND</div>
-            <div class="mobilenav-items">PARTICIPATE</div>
-            <div class="mobilenav-items">ABOUT</div>
+                <div class="mobilenav-items">
 
+                    <a href="./REHAN/Ted_Talks/index.html">
+                        <h3>Ted talks</h3>
+                    </a>
+                    <a href="./REHAN/PlayLists/index.html">
+                        <h3>Playlists</h3>
+                    </a>
+                    <a href="./REHAN/TedSeries/index.html">
+                        <h3>TED Series</h3>
+                    </a>
+                    <a href="./REHAN/Ted_Ed_Videos/index.html">
+                        <h3>TED-Ed Videos</h3>
+                    </a>
+                    <a href="./REHAN/TedX_Talk/index.html">
+                        <h3>TEDx talks</h3>
+                    </a>
+                </div>
+                <p>DISCOVER</p>
+                <div class="mobilenav-items">
+                    <a href="">
+                        <h3>Topics</h3>
+                    </a>
+                    <a href="">
+                        <h3>Newsletter</h3>
+                    </a>
+                </div>
+                <p>ATTEND</p>
+                <div class="mobilenav-items">
+                    <a href="">
+                        <h3>Conferences</h3>
+                    </a>
+                    <a href="">
+                        <h3>TED on Screen</h3>
+                    </a>
+                </div>
+                <p>PARTICIPATE</p>
+                <div class="mobilenav-items">
+                    <a href="">
+                        <h3>Nominate</h3>
+                    </a>
+                </div>
+                <p>ABOUT</p>
+                <div class="mobilenav-items">
+                    <a href="./ANANYA/our organisation/organisation.html">
+                        <h3>Our Organization</h3>
+                    </a>
+                    <a href="./ANANYA/conferences/conference.html">
+                        <h3>Conferences</h3>
+                    </a>
+                </div>
+                <a href="../support/support.html" class="mobilenav-membership">Membership
+                </a>
+            </div>
+            
         </nav>
         <div class="part-1">
             <h2>Featured</h2>
@@ -63,7 +105,6 @@
                         spot clues to her own future — and how you can, too.</p>
                     <br>
                     <span>Watch now</span>
-
                 </div>
                 <div class="part-1-right"><img src="images\part-1-image.jpg" alt="">
                 </div>
@@ -873,7 +914,7 @@ rightarrow.addEventListener('click', function() {
 
             currentIndex = (index + Slides) % Slides;
             const translateValue = -currentIndex * slideWidth;
-            carousel.style.transform = `translateX(${translateValue}px)`;
+            carousel.style.transform = translateX(${translateValue}px);
         }
 
         function nextSlide() {
@@ -890,7 +931,7 @@ rightarrow.addEventListener('click', function() {
         const bar3 = document.querySelector('.bar3');
         const container = document.querySelector('.container');
         const mobileNav = document.querySelector('.mobileNav');
-        const header=document.querySelector('.header');
+        const header = document.querySelector('.header');
 
         hamburger.addEventListener('click', () => {
             bar1.classList.toggle("animateBar1");
