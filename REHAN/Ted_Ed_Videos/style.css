@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .header{
     border: 2px solid black;
@@ -24,14 +27,17 @@
     height: 30%;
 }
 .first_container h3{
-    font-weight: normal;
+    font-size: 15px;
+    font-weight: 300;
 }
 .first_container h1{
     font-size: 50px;
-    font-weight: normal;
-    margin: 20px 0;
+    font-weight: 200;
+    margin: 18px 0 22px 0;
 }
 .first_container p{
+    font-weight: 300;
+
     font-size: 20px;
 }
 .second_container{
@@ -71,11 +77,17 @@
     margin-bottom: 30px;
 }
 .second_left_content button{
+    cursor: pointer;
     color: white;
     background:linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); ;
-    font-weight: 400px;
-    padding: 10px 20px; 
+    font-weight: 400;
+    padding: 15px 30px; 
+    border-style: none;
 }
+.second_left_content button:hover{
+    background: linear-gradient(-90deg, rgba(144, 144, 144, 0.5) 0%, rgba(93, 93, 93, 0.5) 90%);;
+}
+
 .second_right{
     padding-left:20px ;
     margin: 35px 0;
@@ -84,11 +96,29 @@
     /* border: 2px solid red; */
 }
 .right1{
+    cursor: pointer;
     position: relative;
     /* border: 1px solid black; */
 }
+.right1 span{
+    font-size: 20px;
+    color: #E62B1E;
+}
+.right1 span:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right2 span:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right2 span{
+    font-size: 20px;
+    color:#E62B1E;
+}
 .right2{
-    margin-top: 70px;
+    cursor: pointer;
+    margin-top: 100px;
     position: relative;
     /* border: 1px solid black; */
 
@@ -108,14 +138,20 @@
 .right1_content h3{
     font-size: 20px;
 }
+.right1_content h3:hover{
+    color: rgb(97, 97, 97);
+}
+.right2_content h3:hover{
+    color: rgb(97, 97, 97);
+}
 .right2_content h3{
     font-size: 20px;
 }
 .right1_content p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .right2_content p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .third_container{
@@ -126,8 +162,8 @@
 
 }
 .third_container h1{
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 34px;
+    font-weight: 200;
 }
 .videos_div{
     justify-content: space-between;
@@ -145,32 +181,41 @@
     /* border: 2px solid green; */
 }
 .video_img{
+    cursor: pointer;
     position: relative;
 }
 .video_img img{
     width: 100%;
 }
 .video_tag h3{
-    font-size: smaller;
-    right: 0;
+    font-size: 12px;
+    right: 4px;
     bottom: 8px;
     position: absolute;
     width: 30px;
     background-color: black;
-    color: white;
+    color: rgb(212, 212, 212);
     padding: 2px;
     /* border: 1px solid black; */
 }
 .video_title{
+    font-size: 8px;
     margin-top: 10px;
 }
 .video_title h3{
+    color: grey;
     font-weight: normal;
     font-size: 16px;
 }
 .video_title h2{
+    font-weight: 900;
+    cursor: pointer;
     padding-top: 3px;
-    font-size: 19px;
+    font-size: 16px;
+}
+.third_container a{
+    font-weight: 800;
+    color: black;
 }
 .footer{
     margin-top: 80%;
