@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 .header{
     border: 2px solid black;
@@ -25,11 +28,12 @@
     height: 25%;
 }
 .first_container h3{
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: 300;
 }
 .first_container h1{
     font-size: 50px;
-    font-weight: normal;
+    font-weight: 200;
     margin: 10px 0;
 }
 .first_container p{
@@ -39,9 +43,12 @@
 .first_container button{
     color: white;
     background:linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); ;
-    font-size: 17px;
-    padding: 10px 30px;
+    font-size: 10px;
+    padding: 12px 30px;
     margin: 30px 0;
+}
+.first_container button:hover{
+    background: linear-gradient(-360deg, rgba(39, 39, 39, 0.929) 0%, rgba(31, 31, 31, 0.775) 50%);;
 }
 .second_container{
     width: 100%;
@@ -55,10 +62,12 @@
     /* border: 2px solid red; */
 }
 .second_left a{
-    font-weight: 200px;
+    font-size: 14px;
+    font-weight: normal;
     color: black;
 }
 .second_left_img{
+    cursor: pointer;
     width: 60%;
     /* border: 2px solid brown; */
 }
@@ -87,19 +96,20 @@
     /* border: 2px solid green; */
 }
 .video_img{
+    cursor: pointer;
     position: relative;
 }
 .video_img img{
     width: 100%;
 }
 .video_tag h3{
-    font-size: smaller;
-    right: 4px;
+    font-size: 12px;
+    right: 3px;
     bottom: 8px;
     position: absolute;
-    width: 30px;
+    width: 40px;
     background-color: black;
-    color: white;
+    color: rgb(183, 183, 183);
     padding: 2px;
     /* border: 1px solid black; */
 }
@@ -111,8 +121,9 @@
     font-size: 16px;
 }
 .video_title h2{
+    cursor: pointer;
     padding-top: 3px;
-    font-size: 19px;
+    font-size: 17px;
 }
 .second_right{
     margin-left: 15px;
@@ -128,14 +139,40 @@
     /* border: 2px solid red; */
 }
 .right1{
+    cursor: pointer;
     position: relative;
     /* border: 1px solid black; */
 }
 .right2{
+    cursor: pointer;
     margin-top: 90px;
     position: relative;
     /* border: 1px solid black; */
 
+}
+.right1 span{
+    font-size: 20px;
+    color:#E62B1E;
+}
+.right1 span:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right2 span:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right3 span:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right2 span{
+    font-size: 20px;
+    color:#E62B1E;
+}
+.right3 span{
+    font-size: 20px;
+    color:#E62B1E;
 }
 .right1_content{
     top: 0;
@@ -143,25 +180,32 @@
     margin-left: 30px;
     width: 80%;
 }
+.right1_content h3:hover{
+    color: rgb(97, 97, 97);
+}
 .right2_content{
     margin-left: 30px;
     width: 80%;
     top: 0;
     position: absolute;
 }
+.right2_content h3:hover{
+    color: rgb(97, 97, 97);
+}
 .right1_content h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .right2_content h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .right1_content p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .right2_content p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .right3{
+    cursor: pointer;
     margin-top: 70px;
     position: relative;
     /* border: 1px solid black; */
@@ -172,11 +216,14 @@
     margin-left: 30px;
     width: 80%;
 }
+.right3_content h3:hover{
+    color: rgb(97, 97, 97);
+}
 .right3_content h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 .right3_content p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .footer{
     margin-top: 5%;
