@@ -15,20 +15,22 @@
     width: 100%;
     /* border: 2px solid black; */
 }
-.first_container{
-    margin: 20px 11%;
+.first_container {
+    margin: 2% 12%;
     width: 80%;
     /* border: 2px solid red; */
 }
 .first_container h1{
+    text-align: start;
     font-weight: 200;
     font-size: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
-.first_container p{
+.first_container p {
+    text-align: start;
     font-weight: 300;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 114%;
 }
 
 .second_div{
@@ -51,22 +53,23 @@
 }
 .second_image img{
     cursor: pointer;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 .second_img_title{
     /* border: 2px solid red; */
     margin-bottom: 0;
-    margin-top: 30px;
+    margin-top: 6%;
     width: 100%;
 }
 .second_img_title h2{
     font-weight: 200;
-    font-size: 30px;
+    font-size: 168%;
 
 }
-.second_img_title p{
-    font-size: 16px;
+.second_img_title p {
+    line-height: 154%;
+    font-size: 84%;
     margin: 10px 0;
 }
 .second_container button{
@@ -84,4 +87,70 @@
 .footer{
     border: 2px solid black;
     height: 400px;
+}
+
+
+@media only screen and (240px<=width<=767px){
+    .first_container {
+        margin: 2% 2%;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .second_div_container {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 2%;
+        width: 100%;
+        /* border: 2px solid aqua; */
+        margin-bottom: 100px;
+    }
+    .second_img_title h2 {
+        font-weight: 200;
+        font-size: 146%;
+    }
+    
+    .second_container button {
+    cursor: pointer;
+    border: 1px solid rgb(182, 182, 182);
+    font-weight: bold;
+    font-size: 77%;
+    width: 31%;
+    padding: 12px 12px;
+    margin-top: 20px;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (768px<=width<=1024px){
+
+    .first_container {
+        margin: 2% 2%;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .second_div_container {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 2%;
+        width: 100%;
+        /* border: 2px solid aqua; */
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+
 }
