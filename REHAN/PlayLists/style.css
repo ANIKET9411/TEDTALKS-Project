@@ -19,16 +19,18 @@
     align-items: center;
     justify-content: center;
 }
-.first_div h1{
+.first_div h1 {
+    text-align: center;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    font-size: 70px;
+    /* padding-left: 0; */
+    font-size: 420%;
     margin-bottom: 20px;
 }
-.first_div p{
+.first_div p {
     color: grey;
-    font-size: 20px;
+    text-align: center;
+    font-size: 120%;
 }
 .second_div{
     margin: 0 5%;
@@ -36,9 +38,11 @@
     /* border: 2px solid red; */
     margin-bottom: 80px;
 }
-hr{
-    margin: 0 40px 20px 80px;
-    width: 90%;
+hr {
+    margin: 2% 4% 6% 4%;
+    text-align: center;
+    align-items: center;
+    width: 92%;
     border: 5px solid rgb(227, 224, 224);
     border-radius: 2px;
 }
@@ -46,17 +50,17 @@ hr{
     display: flex;
 }
 
-.image_container .div_img{
+.image_container .div_img {
     margin: 0 20px 0 0;
-    width: 350px;
+    width: 300px;
     /* border: 2px solid green; */
     margin-top: 80px;
 }
 .div_img{
     cursor: pointer;
 }
-.image img{
-    height: 350px;
+.image img {
+    height: 300px;
 }
 .image_title{
     padding-right: 10px;
@@ -69,8 +73,8 @@ hr{
     font-size: 15px;
     margin: 15px 0;
 }
-.image_title h2{
-    font-size: 25px;
+.image_title h2 {
+    font-size: 140%;
 }
 .third_div{
     box-shadow: 2px 5px 10px #b6b6b6;
@@ -94,8 +98,8 @@ hr{
     color: #b6b6b6;
     cursor: pointer;
 }
-.third_container h3{
-    font-size: 18px;
+.third_container h3 {
+    font-size: 99%;
     margin-right: 50px;
 }
 .third_container .topic{
@@ -130,10 +134,10 @@ margin-top: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.fourth_img{
+.fourth_img {
     cursor: pointer;
-    margin: 25px 0;
-    width: 230px;
+    margin: 25px 0%;
+    width: 15%;
 }
 .fourth_image img{
     width: 100%;
@@ -146,8 +150,8 @@ margin-top: 20px;
 
 }
 
-.fourth_image_title h2{
-    font-size: 18px;
+.fourth_image_title h2 {
+    font-size: 120%;
 }
 .fourth_talk{
     margin: 10px 0;
@@ -270,7 +274,7 @@ border: 2px solid black;
 
 }
 
-@media only screen and (767px<=width<=1024px){
+@media only screen and (768px<=width<=1024px){
 
     hr {
         margin: 50px 45px 0 50px;
