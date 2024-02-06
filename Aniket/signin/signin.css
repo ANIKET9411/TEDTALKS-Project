@@ -1,23 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     padding:0;
     margin:0;
+    font-family: 'Inter', sans-serif;
 }
 .signin-main{
     display: flex;
-    height:100%;
+    width:100%;
 }
 .signin-left{
     width:50%;
-    height:max-content;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(signin\ background.svg);
-    height:100vh;
+    height:110vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    bottom:0;
+}
+.logo img{
+    width:90px;
+    /* height:20px; */
 }
 .left-content{
     text-align: center;
@@ -25,16 +35,15 @@
     color: white;
 }
 .signin-right{
-    width:50%;
-    padding: 60px 30px;
-    /* text-align: center; */
+    width:45%;
+    padding: 60px 2.5%;
+    text-align: center;
 }
 .signin-right-top{
      text-align: start;
-
 }
 input{
-    width:60%;
+    width:85%;
     padding:18px;
     font-size:1rem;
     border: 1px solid rgb(221, 221, 221);
@@ -42,15 +51,16 @@ input{
 .signin-right h3{
     text-align: center;
     font-size: 24px;
-    /* margin:6.4px auto -12.8px; */
 }
 .signin-right-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width:100%;
     margin:2rem auto;
 }
 .form{
-    /* width:100%; */
-    padding:0 0 0 24%;
     margin:0 auto;
 }
 button{
@@ -88,7 +98,7 @@ input:focus{
     position: relative;
     top: -3.2rem;
     text-align: center;
-    left:46%;
+    /* left:46%; */
 }
 .signin-bottom{
     text-align: center;
@@ -121,8 +131,22 @@ margin:40px 0 0 0;
 .signin-bottom span:not(.signin-lower){
     width:80%;
     align-self: center;
-    margin: 10px 60px;
+    margin: 10px 40px;
     color:#444444;
     flex-wrap: nowrap;
     }
-    
+    @media only screen and (240px<=width<=768px) {
+        .signin-main{
+            flex-direction: column;
+        }
+        .signin-left{
+            width:100%;
+            height:30vh;
+        }
+        .signin-right{
+            width:95%;
+        }
+        .logo{
+            top:13%;
+        }
+    }
