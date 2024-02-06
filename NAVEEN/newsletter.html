@@ -6,29 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ted projects</title>
     <link rel="stylesheet" href="newsletter.css">
+    <script src="https://kit.fontawesome.com/20f950fd4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-    <h1>Newsletters</h1>
+    <header class="header">
+        <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="nav-left">
+            <img src="https://th.bing.com/th/id/R.487e2f0cbdc1f38745b8bd5115b8f39a?rik=eXLE0qbETRvIsA&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fkut%2ffiles%2fstyles%2fx_large%2fpublic%2f201608%2fted_logo.png&ehk=Arz%2b%2fZUmvT0wzGvpmqujfUWWQkEtBEBjzolbKLTiTWk%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+            <a href="#">Ideas worth spreading</a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="../../REHAN/Ted_Talks/index.html">WATCH</a></li>
+                <li>DISCOVER</li>
+                <li><a href="../../SURAJ/organisation/suraj.html">ATTEND</a></li>
+                <li>PARTICIPATE</li>
+                <li><a href="../../ANANYA/our organisation/organisation.html">ABOUT</a></li>
+                <li><a href="./Aniket/signin/sign-in.html">SIGN IN</a></li>
+            </ul>
+            <a href="#support">SUPPORT</a>
+            <i class="material-icons">search</i>
+        </div>
+        <a href="./Aniket/signin/sign-in.html" class="mobile-signin">SIGN IN</a>
+    </header>
+    <nav class="mobileNav">
+        <div class="mobile-view">
+            <p>WATCH</p>
+            <div class="mobilenav-items">
+
+                <a href="../REHAN/Ted_Talks/index.html">
+                    <h3>Ted talks</h3>
+                </a>
+                <a href="../REHAN/PlayLists/index.html">
+                    <h3>Playlists</h3>
+                </a>
+                <a href="../REHAN/TedSeries/index.html">
+                    <h3>TED Series</h3>
+                </a>
+                <a href="../REHAN/Ted_Ed_Videos/">
+                    <h3>TED-Ed Videos</h3>
+                </a>
+                <a href="../REHAN/TedX_Talk/">
+                    <h3>TEDx talks</h3>
+                </a>
+            </div>
+            <p>DISCOVER</p>
+            <div class="mobilenav-items">
+                <a href="../NAVEEN/newsletter.html">
+                    <h3>Newsletter</h3>
+                </a>
+            </div>
+            <p>ATTEND</p>
+            <div class="mobilenav-items">
+                <a href="../SURAJ/organisation/suraj.html">
+                    <h3>Conferences</h3>
+                </a>
+                <a href="">
+                    <h3>TED on Screen</h3>
+                </a>
+            </div>
+            <p>PARTICIPATE</p>
+            <div class="mobilenav-items">
+                <a href="">
+                    <h3>Nominate</h3>
+                </a>
+            </div>
+            <p>ABOUT</p>
+            <div class="mobilenav-items">
+                <a href="./ANANYA/our organisation/organisation.html">
+                    <h3>Our Organization</h3>
+                </a>
+                <a href="./ANANYA/conferences/conference.html">
+                    <h3>Conferences</h3>
+                </a>
+            </div>
+            <a href="../support/support.html" class="mobilenav-membership">Membership
+            </a>
+        </div>
+
+    </nav>
+
+    <h1 class="main-head">Newsletters</h1>
     <div class="container">
 
 
         <div class="container-upperpart" id="n1">
             <div class="card-heading-container">
-                <img src="https://page-builder.ted.com/system/baubles/files/000/010/188/original/Logo_TTD.png?1682439468=&w=1920&q=80"
-                    alt="">
+                <img src="https://page-builder.ted.com/system/baubles/files/000/010/188/original/Logo_TTD.png" alt="">
             </div>
-            <br>
             <div class="card-bottom">
                 <span>DAILY</span>
                 <p>A new TED Talk every weekday, plus occasional extras.</p>
                 <div></div>
-                
-                <footer class="bottom-part">
+
+                <div class="bottom-part">
                     <button>Subscribe</button>
                     <a href="https://link.ted.com/view/62d1b266547336081430a29ahzjuo.5uwv/1717f7c8"
                         target="blank">Preview</a>
-                </footer>
+                </div>
             </div>
         </div>
 
@@ -46,11 +128,11 @@
                     <input type="radio" id="weekly" name="fav_language" value="WEEKLY">
                     <label for="weekly">WEEKLY</label>
                 </div>
-                <footer class="bottom-part">
+                <div class="bottom-part">
                     <button>Subscribe</button>
                     <a href="https://link.ted.com/view/62d1b266547336081430a29ahzjuo.5uwv/1717f7c8"
                         target="blank">Preview</a>
-                </footer>
+                </div>
             </div>
         </div>
         <div class="container-upperpart" id="n3">
@@ -63,10 +145,10 @@
                 <span>WEEKLY</span>
                 <p>Tell us what you’re interested in and we’ll send you talks tailored just for you.</p>
                 <div></div>
-                <footer class="bottom-part">
+                <div class="bottom-part">
                     <button>Subscribe</button>
 
-                </footer>
+                </div>
             </div>
         </div>
         <div class="container-upperpart" id="n4">
@@ -79,104 +161,156 @@
                 <span>MONTHLY</span>
                 <p>Special content and updates for TED supporters, including a peek behind the scenes at TED.</p>
                 <div></div>
-                <footer class="bottom-part">
-                    <button><a
-                            href="https://www.ted.com/membership?utm_medium=website&utm_source=main-nav-header&utm_campaign=membership-ted"
-                            target="_blank">Learn more</a></button>
+                <div class="bottom-part">
+                    <button>
+                        <a href="https://www.ted.com/membership?utm_medium=website&utm_source=main-nav-header&utm_campaign=membership-ted"
+                            target="_blank">Learn more
+                        </a>
+                    </button>
 
-                </footer>
+                </div>
             </div>
-
 
         </div>
     </div>
-    </div>
 
-    <footer class="footer-container">
-        <!-- <h1>TED</h1> -->
-
-
-        <div class="column-container">
-            <div>Explore</div>
-            <ul class="footer-list">
-                <li><a href="#">TEDx</a></li>
-                <li><a href="#">TED Fellows</a></li>
-                <li><a href="#">TED Ed</a></li>
-                <li><a href="#">TED Translators</a></li>
-                <li><a href="#">TED Institute</a></li>
-                <li><a href="#">The Audacious Project</a></li>
-            </ul>
-        </div>
-
-        <div class="column-container">
-            <div>Our Community</div>
-            <ul class="footer-list">
-                <li><a href="#">TED Speakers</a></li>
-                <li><a href="#">TED Fellows</a></li>
-                <li><a href="#">TED Translators</a></li>
-                <li><a href="#">TEDx Organizers</a></li>
-                <li><a href="#">TED Community</a></li>
-            </ul>
-
-        </div>
-
-
-        <div class="column-container">
-            <div>Newsletter</div>
-            <span><i class="fa-solid fa-envelope"></i></span>
-            <p>Get the latest talks</p>
-            <p>Get a daily email featuring the latest talk, plus a quick mix of trending content.</p>
-
-            <input placeholder="what is your email" />
-            <button>Subscribe</button>
-            <p class="underline">By subscribing, you understand and agree that we will store, process and manage your
-                personal information according to our<a class="policy" href="#">Privacy Policy</a></p>
-        </div>
-
-        <div class="column-container">
-            <div>
-                <a href="#ted">Become a ted member</a>
+    <footer>
+        <img src="../../images/ted_logo_white.png" alt="">
+        <div class="footer-inner">
+            <div class="footer-boxes footer-lists">
+                <div class="footer-list rows">
+                    <h3 class="footer-margin">Explore</h3>
+                    <ul>
+                        <div class="row-1">
+                            <li class="footer-margin"><a href="">TEDx</a></li>
+                            <li class="footer-margin"><a href="">TED Fellows</a></li>
+                            <li class="footer-margin"><a href="">TED Ed</a></li>
+                            <li class="footer-margin"><a href="">TED Translators</a></li>
+                            <li class="footer-margin"><a href="">TED Institute</a></li>
+                        </div>
+                        <div class="row-1">
+                            <li class="footer-margin"><a href="">The Audacious Project</a></li>
+                            <li class="footer-margin"><a href="">TED@Work</a></li>
+                            <li class="footer-margin"><a href="">Podcasts</a></li>
+                            <li class="footer-margin"><a href="">TED Blog</a></li>
+                            <li class="footer-margin"><a href="">More ways to get TED</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3 class="footer-margin">Our community</h3>
+                    <ul style="padding:0;">
+                        <li class="footer-margin"><a href="" class="footer-margin">TED Speakers</a></li>
+                        <li class="footer-margin"><a href="" class="footer-margin">TED Fellows</a></li>
+                        <li class="footer-margin"><a href="" class="footer-margin">TED Translators</a></li>
+                        <li class="footer-margin"><a href="" class="footer-margin">TEDx Organizers</a></li>
+                        <li class="footer-margin"><a href="" class="footer-margin">TED Community</a></li>
+                    </ul>
+                </div>
             </div>
-            <p>TED Members make our mission possible by supporting global access to inspiring ideas. Plus, they get
-                to attend exclusive events. Help support a better future – and a brighter you.</p>
-            <div>Follow TED</div>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/company/ted-conferences/" target="_blank">
-                    <img src="./icons/linkedin.svg" />
-                </a>
-                <a href="https://twitter.com/tedtalks" target="_blank">
-                    <img src="./icons/twitter.svg" />
-                </a>
-                <a href="https://www.instagram.com/ted/" target="_blank">
-                    <img src="./icons/instagram.svg" />
-                </a>
-                <a href="https://www.youtube.com/ted" target="_blank">
-                    <img src="./icons/youtube.svg" />
-                </a>
-                <a href="https://www.facebook.com/TED" target="_blank">
-                    <img src="./icons/facebook.svg" />
-                </a>
+            <div class="footer-boxes">
+                <h3 class="footer-margin">Newsletters</h3>
+                <div class="footer-heading mails">
+                    <i class="material-icons">mail</i>
+                    <span>Get the latest talks</span>
+                </div>
+                <p>Get a daily email featuring the latest talk, plus a quick mix of trending content.</p>
+                <div class="subscribe">
+                    <input type="email" placeholder="What's your Email?">
+                    <span>Subscribe</span>
+                </div>
+                <p class="color-grey">By subscribing, you understand and agree that we will store, process and
+                    manage your personal
+                    information according to our
+                    <a href="" class="color-grey">Privacy Policy</a>
+                </p>
             </div>
 
-            <h3>Download the TED APP</h3>
-            <div class="social-links">
-                <a
-                    href="https://play.google.com/store/apps/details?id=com.ted.android&utm_medium=email&utm_source=ted_talks_daily_newsletter&utm_campaign=daily&user_email_address=f325af12e52a26ff58bb171ffc448307">
+            <div class="footer-boxes footer-margin footer-boxe-3">
+                <div class="fourth-footer-top border-bottom">
+                    <div class="footer-heading" style="margin:0;display: flex;align-items: center;">
+                        <h3 class="footer-margin">Become a TED Member</h3>
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <p class="footer-margin">TED Members make our mission possible by supporting global access to
+                        inspiring ideas. Plus,
+                        they get to attend exclusive events. Help support a better future – and a brighter you.
+                    </p>
+                </div>
+                <div class="social-media-icons footer-margin border-bottom">
+                    <h3>Follow TED</h3>
 
-                    <img src="./icons/google-play.svg" alt="abcd">
-
-                </a>
-                <a
-                    href="https://apps.apple.com/us/app/ted/id376183339?user_email_address=f325af12e52a26ff58bb171ffc448307&utm_campaign=daily&utm_medium=email&utm_source=ted_talks_daily_newsletter">
-                    <img src="./icons/app-store.svg" alt="ddd">
-                </a>
+                    <a href="" class="socialmediabg">
+                        <img src="https://www.shareicon.net/data/2048x2048/2016/07/13/606491_linkedin_4096x4096.png"
+                            alt="">
+                    </a>
+                    <a href="" class="socialmediabg">
+                        <img src="../../images/twitter_logo-removebg-preview.png" alt="">
+                    </a>
+                    <a href="" class="socialmediabg">
+                        <img src="https://p7.hiclipart.com/preview/322/394/495/logo-computer-icons-instagram-logo.jpg"
+                            alt="">
+                    </a>
+                    <a href="" class="socialmediabg">
+                        <img src="https://logodix.com/logo/83974.png" alt="">
+                    </a>
+                    <a href="" class="socialmediabg">
+                        <img src="https://th.bing.com/th/id/R.41ee6f8ec099d5ec0c5c17a332ae4add?rik=5JJcpfRaSVmRBA&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ffacebook-logo-with-transparent-background%2ffacebook-logo-with-transparent-background-17.png&ehk=wLLggC09DRdSV56XJoZwQPzcBIWefnWKBqBFnsDc4sg%3d&risl=&pid=ImgRaw&r=0"
+                            alt="">
+                    </a>
+                    <div class="fourth-footer-bottom">
+                        <h3 class="heading-margin">Download the TED App</h3>
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.ted.android&utm_medium=email&utm_source=ted_talks_daily_newsletter&utm_campaign=daily&user_email_address=f325af12e52a26ff58bb171ffc448307"><img
+                                src="../../images/google-play.png" alt=""></a>
+                        <a
+                            href="https://apps.apple.com/us/app/ted/id376183339?user_email_address=f325af12e52a26ff58bb171ffc448307&utm_campaign=daily&utm_medium=email&utm_source=ted_talks_daily_newsletter"><img
+                                src="../../images/app-store.png" alt=""></a>
+                    </div>
+                </div>
 
             </div>
-
         </div>
-
-
+        <hr>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <ul>
+                    <li class="footer-margin"><a href="" class="footer-margin">TED Talks Usage Policy</a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            Privacy Policy</a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            Advertising / Partnership</a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            TED.com Terms of Use</a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">Jobs
+                        </a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            Press</a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            Help
+                        </a></li>
+                    <li class="footer-margin"><a href="" class="footer-margin">
+                            Privacy Preferences
+                        </a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom-right">&copy; TED Conferences, LLC. All rights reserved.</div>
+        </div>
     </footer>
+    <script>const hamburger = document.querySelector('.hamburger');
+        const bar1 = document.querySelector('.bar1');
+        const bar2 = document.querySelector('.bar2');
+        const bar3 = document.querySelector('.bar3');
+        const container = document.querySelector('.container');
+        const mobileNav = document.querySelector('.mobileNav');
+
+        hamburger.addEventListener('click', () => {
+            bar1.classList.toggle("animateBar1");
+            bar2.classList.toggle("animateBar2");
+            bar3.classList.toggle("animateBar3");
+            mobileNav.classList.toggle("openDrawer");
+            container.classList.toggle("position");
+        });</script>
 </body>
 
 </html>
