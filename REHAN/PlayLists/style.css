@@ -86,6 +86,7 @@ hr {
 .third_container{
     position: relative;
     display: flex;
+    justify-content: space-between;
     padding: 40px 10px;
     margin: 0 5%;
     width: 90%;
@@ -99,8 +100,9 @@ hr {
     cursor: pointer;
 }
 .third_container h3 {
+    width:31%;
     font-size: 99%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .third_container .topic{
     font-size: 25px;
@@ -178,103 +180,7 @@ border: 2px solid black;
     height: 400px;
 }
 
-
-@media only screen and (240px<=width<=767px){
-    .first_div h1 {
-        align-items: center;
-        justify-content: center;
-        padding-left: 19%;
-        font-size: 50px;
-        margin-bottom: 10px;
-    }
-    .first_div p {
-        color: grey;
-        font-size: 17px;
-    }
-    .first_div {
-        width: 100%;
-        height: 40%;
-        /* border: 2px solid red; */
-        padding: 6% 29%;
-        align-items: center;
-        justify-content: center;
-    }
-    .image img {
-        height: 174px;
-    }
-    .image_title h2 {
-        font-size: 20px;
-    }
-    .image_title {
-        padding-right: 33px;
-        margin: 20px 0;
-    }
-    .image_container .div_img{
-        margin: 0 10px 0 0;
-        width: 250px;
-        /* border: 2px solid green; */
-        margin-top: 80px;
-    }
-    .second_div {
-        margin: 0 5%;
-        width: 75%;
-        /* border: 2px solid red; */
-        margin-bottom: 80px;
-    }
-    hr{
-        margin: 20px 40px 0 40px;
-        width: 90%;
-        border: 5px solid rgb(227, 224, 224);
-        border-radius: 2px;
-    }
-
-    .third_container h3 {
-        font-size: 16px;
-        margin-right: 50px;
-    }
-    .third_container .topic {
-        font-size: 25px;
-        position: absolute;
-        top: 40%;
-        right: 61%;
-    }
-    .third_container .curator {
-        font-size: 25px;
-        position: absolute;
-        top: 41%;
-        right: 44.4%;
-    }
-    .fourth_img {
-        cursor: pointer;
-        margin: 25px 0 15px 0;
-        width: 164px;
-    }
-    .fourth_image_title h2 {
-        font-size: 15px;
-    }
-    .fourth_container {
-        /* border: 2px solid black; */
-        margin: 0 3%;
-        width: 95%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .fifth_content {
-        cursor: pointer;
-        justify-content: space-evenly;
-        display: flex;
-        padding: 100px 36%;
-        align-items: center;
-    }
-    
-
-
-
-
-}
-
-@media only screen and (768px<=width<=1024px){
+@media only screen and (700px<=width<=1024px){
 
     hr {
         margin: 50px 45px 0 50px;
@@ -328,6 +234,13 @@ border: 2px solid black;
         font-size: 16px;
         margin: 11px 0;
     }
+    .third_div h3:first-of-type{
+        margin-left:6%;
+    }
+    .third_container{
+        padding:15px 5px;
+        justify-content: flex-start;
+    }
     .third_container h3 {
         font-size: 16px;
         margin-right: 50px;
@@ -347,7 +260,7 @@ border: 2px solid black;
     .fourth_container {
         /* border: 2px solid black; */
         margin: 0 5%;
-        width: 92%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -358,7 +271,7 @@ border: 2px solid black;
     .fourth_img {
         cursor: pointer;
         margin: 25px 0;
-        width: 220px;
+        width:23%;
     }
     .fifth_content {
         cursor: pointer;
@@ -369,3 +282,117 @@ border: 2px solid black;
     }
 
 }
+
+@media only screen and (240px<=width<=699px){
+    .first_div h1 {
+        text-align: center;
+        /* padding-left: 19%; */
+        font-size: 50px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        font-size: 2rem;
+    }
+    .first_div p {
+        color: grey;
+        font-size: 17px;
+    }
+    .first_div {
+        width: 100%;
+        height: 40%;
+        /* border: 2px solid red; */
+        padding: 6% 29%;
+        align-items: center;
+        justify-content: center;
+    }
+    .image_container{
+        flex-direction: column;
+        width:100%;
+    }
+   
+    .div_img .image{
+        width:100%;
+    }
+    .image img {
+        width:100%;
+    }
+    .image_title h2 {
+        font-size: 20px;
+    }
+    .image_title {
+        margin: 20px 0;
+    }
+    .image_container .div_img{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .second_div {
+        width: 90%;
+        /* border: 2px solid red; */
+        margin-bottom: 0;
+    }
+    
+    hr{
+        width: 90%;
+        border: 5px solid rgb(227, 224, 224);
+        border-radius: 2px;
+    }
+    .third_div{
+        width: 80%;
+        margin:0 10% ;
+        padding:10px 20px;
+    }
+    .third_container{
+        padding:15px 5px;
+        justify-content: flex-start;
+    }
+    .third_container h3 {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .third_container .topic {
+        font-size: 25px;
+        position: absolute;
+        top: 40%;
+        right: 61%;
+    }
+    .third_container .curator {
+        font-size: 25px;
+        position: absolute;
+        top: 41%;
+        right: 44.4%;
+    }
+    .fourth_img {
+        cursor: pointer;
+        margin: 25px 0 15px 0;
+        width: 164px;
+    }
+    .fourth_image_title h2 {
+        font-size: 15px;
+    }
+    .fourth_container {
+        /* border: 2px solid black; */
+        margin: 0 3%;
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .fourth_img{
+        width:47%;
+    }
+    .fifth_content {
+        cursor: pointer;
+        justify-content: space-evenly;
+        display: flex;
+        padding: 100px 36%;
+        align-items: center;
+    }
+    
+
+
+
+
+}
+
