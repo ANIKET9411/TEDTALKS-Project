@@ -11,40 +11,41 @@
     width: 100%;
     height: 70px;
 }
-.container{
+.container {
     /* height: 4000px; */
     width: 100%;
     /* border: 2px solid red; */
-
 }
-.main_container{
-     /* border: 2px solid green; */
-     height: 100%;
-     width: 80%;
-     margin: 50px 10%;
+.main_container {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 77%;
+    margin: 50px 12%;
 }
 .first_container{
     /* border: 2px solid blue; */
     height: 25%;
 }
-.first_container h3{
-    font-size: 16px;
+.first_container h3 {
+    text-align: start;
+    font-size: 82%;
     font-weight: 300;
 }
-.first_container h1{
-    font-size: 50px;
+.first_container h1 {
+    text-align: start;
+    font-size: 250%;
     font-weight: 200;
     margin: 10px 0;
 }
-.first_container p{
+.first_container p {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 120%;
 }
-.first_container button{
+.first_container button {
     color: white;
-    background:linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); ;
-    font-size: 10px;
-    padding: 12px 30px;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    font-size: 60%;
+    padding: 15px 25px;
     margin: 30px 0;
 }
 .first_container button:hover{
@@ -61,15 +62,18 @@
     width: 67.5%;
     /* border: 2px solid red; */
 }
-.second_left a{
-    font-size: 14px;
+.second_left a {
+    font-size: 80%;
     font-weight: normal;
     color: black;
 }
-.second_left_img{
+.second_left_img {
     cursor: pointer;
-    width: 60%;
+    width: 100%;
     /* border: 2px solid brown; */
+}
+.second_left_img img{
+    width: 100%;
 }
 
 .second_left_flex{
@@ -83,16 +87,16 @@
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 22px;
     height: 95%;
     /* border: 2px solid red; */
     margin-bottom: 125px;
     width: 100%;
 }
-.video_structure{
-    margin: 10px 0;
+.video_structure {
+    margin: 0px 0 0px 0;
     width: 22%;
-    height: 30%;
+    height: 9%;
     /* border: 2px solid green; */
 }
 .video_img{
@@ -102,12 +106,12 @@
 .video_img img{
     width: 100%;
 }
-.video_tag h3{
-    font-size: 12px;
+.video_tag h3 {
+    font-size: 62%;
     right: 3px;
     bottom: 8px;
     position: absolute;
-    width: 40px;
+    width: 32px;
     background-color: black;
     color: rgb(183, 183, 183);
     padding: 2px;
@@ -116,14 +120,14 @@
 .video_title{
     margin-top: 10px;
 }
-.video_title h3{
+.video_title h3 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 78%;
 }
-.video_title h2{
+.video_title h2 {
     cursor: pointer;
     padding-top: 3px;
-    font-size: 17px;
+    font-size: 100%;
 }
 .second_right{
     margin-left: 15px;
@@ -145,13 +149,13 @@
 }
 .right2{
     cursor: pointer;
-    margin-top: 90px;
+    margin-top: 60px;
     position: relative;
     /* border: 1px solid black; */
 
 }
 .right1 span{
-    font-size: 20px;
+    font-size: 120%;
     color:#E62B1E;
 }
 .right1 span:hover{
@@ -167,11 +171,11 @@
     color: grey;
 }
 .right2 span{
-    font-size: 20px;
+    font-size: 120%;
     color:#E62B1E;
 }
 .right3 span{
-    font-size: 20px;
+    font-size: 120%;
     color:#E62B1E;
 }
 .right1_content{
@@ -192,21 +196,21 @@
 .right2_content h3:hover{
     color: rgb(97, 97, 97);
 }
-.right1_content h3{
-    font-size: 20px;
+.right1_content h3 {
+    font-size: 120%;
 }
 .right2_content h3{
-    font-size: 20px;
+    font-size: 120%;
 }
 .right1_content p{
-    font-size: 16px;
+    font-size: 100%;
 }
 .right2_content p{
-    font-size: 16px;
+    font-size: 100%;
 }
 .right3{
     cursor: pointer;
-    margin-top: 70px;
+    margin-top: 60px;
     position: relative;
     /* border: 1px solid black; */
 }
@@ -220,14 +224,165 @@
     color: rgb(97, 97, 97);
 }
 .right3_content h3{
-    font-size: 20px;
+    font-size: 120%;
 }
 .right3_content p{
-    font-size: 16px;
+    font-size: 100%;
 }
 .footer{
     margin-top: 5%;
     width: 100%;
     height: 350px;
     border: 2px solid black;
+}
+
+
+@media only screen and (240px<=width<=767px){
+    .main_container {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 94%;
+        margin: 21px 2% 50px 2%;
+
+    }
+    .first_container h3{
+        display: none;
+    }
+    .first_container p {
+        margin-top: 20px;
+        font-size: 108%;
+    }
+    .second_container {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        /* border: 2px solid violet; */
+        height: 100%;
+    }
+    .second_left {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .second_left_img {
+        cursor: pointer;
+        width: 100%;
+        /* border: 2px solid brown; */
+    }
+    .video_structure {
+        display: flex;
+        margin: 0px 0 0px 0;
+        width: 100%;
+        height: 9%;
+        /* border: 2px solid green; */
+    }
+    .video_img {
+        width: 220px;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 2%;
+    }
+    .video_img img {
+        width: 221px;
+    }
+    .video_title {
+        margin-top: 10px;
+        margin-left: 4%;
+    }
+    .video_container {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 22px;
+        height: 95%;
+        /* border: 2px solid red; */
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .second_right {
+        margin-top: 3%;
+        /* padding-left: 20px; */
+        /* margin: 35px 0; */
+        width: 100%;
+        /* height: 100%; */
+        /* border: 2px solid red; */
+    }
+    .right2 {
+        cursor: pointer;
+        margin-top: 33px;
+        position: relative;
+        /* border: 1px solid black; */
+    }
+    .right3 {
+        cursor: pointer;
+        margin-top: 33px;
+        position: relative;
+        /* border: 1px solid black; */
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (768px<=width<=1024px){
+    .first_container h3{
+        display: none;
+    }
+
+
+    .main_container {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 99%;
+        margin: 21px 2% 50px 2%;
+    }
+    .second_container {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        /* border: 2px solid violet; */
+        height: 100%;
+    }
+    .second_left {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .second_left_img {
+        cursor: pointer;
+        width: 90%;
+        /* border: 2px solid brown; */
+    }
+    .video_structure {
+        margin: 0px 0 17px 0;
+        width: 22%;
+        height: 9%;
+        /* border: 2px solid green; */
+    }
+    .video_container {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 22px;
+        height: 95%;
+        /* border: 2px solid red; */
+        margin-bottom: 42px;
+        width: 100%;
+    }
+    .second_right {
+        margin-top: 4%;
+        padding-left: 5px;
+        /* margin: 35px 0; */
+        width: 100%;
+        /* height: 100%; */
+        /* border: 2px solid red; */
+    }
+
+
+
+
+
 }
