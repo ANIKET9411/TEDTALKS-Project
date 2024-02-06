@@ -494,14 +494,14 @@ width:25%;
     width:25%;
 }
 .footer-bottom-left ul li a{
-    color:white;
+    color:rgb(181, 181, 181);
     text-decoration: none;
 }
 .footer-bottom-left ul li a:hover{
     text-decoration: underline;
 }
 .footer-bottom-right{
-    color:white;
+    color:rgb(181, 181, 181);
     margin-top:3%;
 }
 .socialmediabg{
