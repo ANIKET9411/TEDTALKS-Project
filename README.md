@@ -1,4 +1,4 @@
-# TED TALKS
+# TED TALKS CLONE
 ## Description
 
 Welcome to the TEDTALKS. This project aims to replicate the essence of the popular TED Talks platform, where you can explore, engage with, and be inspired by a diverse range of talks covering various topics, from science and technology to arts and culture.
@@ -25,10 +25,12 @@ This project was provided to test the skills and creativity of members against w
 - **Responsive Design**: Enjoy seamless browsing and viewing experiences across various devices, including desktops, tablets, and smartphones.
 ## Project Assigned
 
-- TEDTALKS Home Page
+- TEDTALKS CLONE
 ```bash
+ * Home
  * Navbar
  * Footer
+
 ```
 - Watch
 ```bash
@@ -47,9 +49,14 @@ This project was provided to test the skills and creativity of members against w
  * Conference
 ```
 - Participate
+```bash
+ * Nominate
+```
+
 - About
 ```bash
  * Our Organization
+
 ```
 - SignIn
 - Membership / Support
