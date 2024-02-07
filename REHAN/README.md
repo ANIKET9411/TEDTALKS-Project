@@ -25,25 +25,39 @@ In this section, we aim to mirror the original TEDTALKS website's "Watch" sectio
 ### Watch Section:
 
 #### *TED Talks*
+![TT1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/da7c8cf6-6627-4663-ade4-0d25ab143b35)
+![TT2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/d942b6f5-b78e-4423-9bce-9c482e86921a)
 
 
 
 
 #### *Playlists*
+![play1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/6bd3b8b7-7aa2-4bbf-8c9e-9b2e1fa7c7aa)
+![play2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/fe452985-94c4-4439-9bf0-4bbacbcf622f)
+
 
 
 
 
 #### *TED Series*
+![ts1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/9fd55d85-a3de-446d-8575-39fc7801545e)
+![ts2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/36ae12d9-614f-43cb-89eb-19a5ca8c5ee3)
+
 
 
 
 
 #### *TED-Ed Videos*
+![td1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/3df52f62-331b-4272-b7cd-11ec0ee89fe7)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/a6fc1c9a-8590-4cf2-92a9-60f84811de59)
+
 
 
 
 #### *TEDx Talks*
+![tdx1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/f31c9b75-11fd-4651-9e60-4cf90448dbec)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/0e1b2ec5-8b7b-4b72-8fb5-c87f6f60f847)
+
 
 
 ## Acknowledgement
