@@ -55,7 +55,27 @@ This project was provided to test the skills and creativity of members against w
 - Membership / Support
 
 ## Screenshots
-pending
+### TED Talk *Home Page*
+![home page](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/da81cd46-b429-4707-be8a-aa3ad6ec3e85)
+### TED Talk *Watch Section*
+![watch](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/ac09c80a-b8bf-429a-8800-da95c309abe1)
+### TED Talk *Discover Section*
+![discover](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/304c99d9-079c-4510-ac6d-53b8e33872f5)
+### TED Talk *Attend Section*
+![attend](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/e8b852ee-0508-4f93-a4c0-e71bedb880a2)
+### TED Talk *Participate Section*
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/2110185d-fbf1-4eef-b0e7-32dce9bc83e0)
+### TED Talk *About Section*
+![About](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/5531426f-30ae-4be9-9a29-c4fd87712723)
+### TED Talk *SignIn Section*
+![sign in](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/bce52424-aa69-44f9-974a-151ab737f6e0)
+### TED Talk *Support Section*
+![support](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/aaee26e5-9ebf-4445-b62b-c3e10698c258)
+### TED Talk *HamBurger Section*
+![hamburger](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/afbb50d6-fb40-4218-baff-cd3b41931735)
+
+
+
 ## Technology Used
 
 **HTML:** For structuring the content of web pages.
