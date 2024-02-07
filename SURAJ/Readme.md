@@ -33,6 +33,12 @@ In this section, we aim to mirror the original TEDTALKS website's "Attend" secti
 
 
 <!-- #### TED Series -->
+![Screenshot (121)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/195c265f-bec0-404a-9bac-a125513a3937)
+![Screenshot (122)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/eb8de91e-2824-44b2-b9c7-dda571ca7d52)
+![Screenshot (123)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/b7cfb244-ed98-4584-a2bb-453fd63406ea)
+![Screenshot (124)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/36dcb550-0f3f-4e1e-94ae-fdde7a4beb4c)
+![Screenshot (125)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/1b0961c2-8865-478f-a5f7-184922da5e94)
+![Screenshot (126)](https://github.com/ANIKET9411/TEDTALKS-Project/assets/139052302/4b17ce21-34fe-4517-924d-4d317bd0b026)
 
 
 
