@@ -1,4 +1,3 @@
-
 # TED TALKS Website- "*HOME PAGE*"
 
 
@@ -7,58 +6,76 @@
 ## Overview
 Welcome to TEDTALKS Project! This project aims to replicate and enhance the "Watch" sections of the TEDTALKS website. By Recreatin this Section We Intend to Flourish It's is on a mission to discover and spread ideas that spark imagination, embrace possibility and catalyze impact.
 ## Features
-### Watch Section
+ - **Newest Talks:**   To see the newest talks 
+  
+ - **Trending:**         To see the trendings
+  
+ - **Explore Playlists:**     To explore the Playlists
+  
+ - **TED-Ed animations:**        To check and explore the Ted Ed videos.
+  
+ - **About:**              To see about us.
 
-In this section, we aim to mirror the original TEDTALKS website's "Watch" section. Key features include:
+ - **Sign-in:**           Sign-in and to be a part of our community.
+
+ - **Membership:**         Get a membership pass and explore more.
+  
+### Home Page Section
+
+In this section, we aim to mirror the original TEDTALKS website's "Home Page" section. Key features include:
 - **Responsive Design:** Ensure the values section is visually appealing and functional on various devices.
 
 - **Content Accuracy:** Accurately represent TEDTALK's core values as presented on the original website.
 
 - **Consistent Styling:** Maintain a consistent look and feel with the rest of the cloned website.
+
+- **Additional Feature:** We are adding animation and using javascript to make it more attractive.
+
+  
 ## Tech Stack
 
 - HTML
 
 - CSS
 
-## Images
-### Home Page:
+- JS
 
-#### *TED Talks*
-![TT1]()
-![TT2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/d942b6f5-b78e-4423-9bce-9c482e86921a)
+## Screenshots
 
+### Home:
 
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/09a4e5d1-a171-4a98-a408-3e1a6c4be1fe)
 
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/8f660d6b-3b95-412c-91f1-013aa79f085e)
 
-#### *Playlists*
-![play1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/6bd3b8b7-7aa2-4bbf-8c9e-9b2e1fa7c7aa)
-![play2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/fe452985-94c4-4439-9bf0-4bbacbcf622f)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/f836f023-2f5f-45cd-8e8f-cd3866bee8e8)
 
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/d937d3e3-e275-484a-8d44-f6ad00324dcf)
 
-
-
-
-#### *TED Series*
-![ts1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/9fd55d85-a3de-446d-8575-39fc7801545e)
-![ts2](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/36ae12d9-614f-43cb-89eb-19a5ca8c5ee3)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/5b9398e7-264c-4c5b-b91f-de08b4995cdf)
 
 
+#### *Footer:
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/f4235db0-e7cc-40a2-815d-14a161052d4f)
 
 
-
-#### *TED-Ed Videos*
-![td1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/3df52f62-331b-4272-b7cd-11ec0ee89fe7)
-![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/a6fc1c9a-8590-4cf2-92a9-60f84811de59)
+#### *Hamburger:
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/833b290b-1562-46d0-be86-66450b3e289b)
 
 
 
-
-#### *TEDx Talks*
-![tdx1](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/f31c9b75-11fd-4651-9e60-4cf90448dbec)
-![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/143618117/0e1b2ec5-8b7b-4b72-8fb5-c87f6f60f847)
+#### *Sign-in:
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/91bbcc32-f794-41f7-9d0b-56e0f65948a7)
 
 
+
+#### *Membership/Support
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/07a21dbe-7b43-406f-8eac-57d4142de62b)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/9cb3879c-fd87-4c5b-bc46-3ac1f2e827ff)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/9ec4d3da-09d2-43d5-9586-838f19f06a85)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/9cb3879c-fd87-4c5b-bc46-3ac1f2e827ff)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/ad88c72e-75cb-4c3e-a1bc-e8c6e3f9cc0e)
+![image](https://github.com/ANIKET9411/TEDTALKS-Project/assets/84952072/91f530bc-0634-454a-ab30-34c062598f35)
 
 ## Acknowledgement
 
