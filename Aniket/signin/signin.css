@@ -149,4 +149,7 @@ margin:40px 0 0 0;
         .logo{
             top:13%;
         }
+        .left-content h1{
+            font-size:1.5rem;
+        }
     }
