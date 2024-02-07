@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./Aniket/homepage/style.css">
     <script src="https://kit.fontawesome.com/20f950fd4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+   
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2.3.0/dist/flickity.min.css" media="screen"> -->
+    
 </head>
 
 <body>
@@ -113,9 +117,9 @@
         </div>
 
         <div class="part-2">
-            <div class="part-2-inner">
+            <div class="part-2-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-2-items">
+                <div class="part-2-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-2-img-1.jpg" alt="">
@@ -127,7 +131,7 @@
 
                     </a>
                 </div>
-                <div class="part-2-items">
+                <div class="part-2-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                             <img src="images/part-2-img-2.jpg" alt="">
@@ -141,7 +145,7 @@
                         <p>Yordanos Eyoel</p>
                     </a>
                 </div>
-                <div class="part-2-items">
+                <div class="part-2-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                             <img src="images/part-2-img-3.jpg" alt="">
@@ -152,7 +156,7 @@
                         <p>TED-Ed</p>
                     </a>
                 </div>
-                <div class="part-2-items">
+                <div class="part-2-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-2-img-4.jpg" alt="">
@@ -163,7 +167,7 @@
                         <p>Tao Zhang</p>
                     </a>
                 </div>
-                <div class="part-2-items">
+                <div class="part-2-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-2-img-5.jpg" alt="">
@@ -181,9 +185,9 @@
         <div class="part-3">
             <h2 class="heading-margin">Newest talks</h2>
 
-            <div class="part-3-inner slider">
+            <div class="part-3-inner slider main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-1.jpg" alt="">
@@ -194,7 +198,7 @@
                         <p>SHARI LIU</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-2.jpg" alt="">
@@ -205,7 +209,7 @@
                         <p>Laprisha Berry Daniels</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-3.jpg" alt="">
@@ -216,7 +220,7 @@
                         <p>Paul Hudson and Lindsay Levin</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-4.jpg" alt="">
@@ -227,7 +231,7 @@
                         <p>Gary Barker</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-5.jpg" alt="">
@@ -238,7 +242,7 @@
                         <p>Hani Goodarzi</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-6.jpg" alt="">
@@ -249,7 +253,7 @@
                         <p> Buzz</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-7.jpg" alt="">
@@ -260,7 +264,7 @@
                         <p>John O'Donnell</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-3 image-8.jpg" alt="">
@@ -272,20 +276,14 @@
                     </a>
                 </div>
             </div>
-            <!-- <div class="controls">
-                    <span class="arrow left"><i class="fa-solid fa-angles-left"></i></span>
-                    <span class="arrow right"><i class="fa-solid fa-angles-right"></i></span>
-                </div> -->
-            <span id="prevBtn" onclick="prevSlide()">Previous</span>
-            <span id="nextBtn" onclick="nextSlide()">Next</span>
 
         </div>
         <!-- part-4  -->
         <div class="part-3 part-4">
             <h2 class="heading-margin">Trending</h2>
-            <div class="part-3-inner slider">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <div class="part-2-image">
                         <img src="images/part-4-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
@@ -295,7 +293,7 @@
                         <p>Jessica Garza</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -304,7 +302,7 @@
                         <p>Nedra Glover Tawwab</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -313,7 +311,7 @@
                         <p>Jonny Sun</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/Screenshot 2024-02-03 161337.png" alt="" height="90%"><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -322,7 +320,7 @@
                         <p>Eric X. Li</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -331,7 +329,7 @@
                         <p>Meg Jay</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-6.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -340,7 +338,7 @@
                         <p>Kate Darling</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-7.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -349,7 +347,7 @@
                         <p>Sara DeWitt</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-4-image-8.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -379,9 +377,9 @@
         <!-- part-6  -->
         <div class="part-3 part-6">
             <h2 class="heading-margin">Countdown: Take action on climate</h2>
-            <div class="part-3-inner slider">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -390,7 +388,7 @@
                         <p>TED Countdown</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -399,7 +397,7 @@
                         <p>Al Gore</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -408,7 +406,7 @@
                         <p> John Doerr and Ryan Panchadsaram</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-4.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -417,7 +415,7 @@
                         <p>Josephine Philips</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -426,7 +424,7 @@
                         <p>Yuval Noah Harari</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-6.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -435,7 +433,7 @@
                         <p>TED Countdown</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-6-image-7.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -449,9 +447,9 @@
         <!-- part-7  -->
         <div class="part-3 part-7">
             <h2 class="heading-margin">AI and the future</h2>
-            <div class="part-3-inner slider">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -460,7 +458,7 @@
                         <p>Max Tegmark</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -469,7 +467,7 @@
                         <p>Sam Gregory</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -478,7 +476,7 @@
                         <p>Pelonomi Moiloa</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-4.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -487,7 +485,7 @@
                         <p>Walter De Brouwer</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -496,7 +494,7 @@
                         <p>Jessica Apotheker</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-6.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -505,7 +503,7 @@
                         <p>Amjad Masad</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-7.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -514,7 +512,7 @@
                         <p>Ruha Benjamin</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-7-image-8.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -528,9 +526,9 @@
         <!-- part-8  -->
         <div class="part-3 part-8">
             <h2 class="heading-margin">Heard on TED Radio Hour</h2>
-            <div class="part-3-inner slider" style="overflow-x: visible;">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'">
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <img src="images/part-8-image-1.jpg" alt="">
                         <h4>05:32</h4>
@@ -538,7 +536,7 @@
                         <p>YeYoon Kim</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <img src="images/part-8-image-2.jpeg" alt="">
                         <h4>37:35</h4>
@@ -546,7 +544,7 @@
                         <p>Anne Madden</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <img src="images/part-8-image-3.jpeg" alt="">
                         <h4>18:32</h4>
@@ -554,7 +552,7 @@
                         <p>Lera Boroditsky</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href="">
                         <img src="images/part-8-image-4.jpeg" alt="">
                         <h4>20:32</h4>
@@ -567,9 +565,9 @@
         <!-- part-9  -->
         <div class="part-3 part-9">
             <h2 class="heading-margin">TED-Ed animations: Feed your curiosity</h2>
-            <div class="part-3-inner slider">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -578,7 +576,7 @@
                         <p> TED-Ed</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -587,7 +585,7 @@
                         <p>Malachy McHugh</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -596,7 +594,7 @@
                         <p>Carolyn Beans</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-4.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -605,7 +603,7 @@
                         <p>Mia Nacamulli</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -614,7 +612,7 @@
                         <p>TED-Ed</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-6.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -623,7 +621,7 @@
                         <p>Mia Nacamulli</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-7.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -632,7 +630,7 @@
                         <p>Annie Bosler and Don Greene</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-9-image-8.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -646,9 +644,9 @@
         <!-- part-10  -->
         <div class="part-3 part-10">
             <h2 class="heading-margin">Creature features with TEDx</h2>
-            <div class="part-3-inner slider">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-1.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -657,7 +655,7 @@
                         <p>Julia Espinosa</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -666,7 +664,7 @@
                         <p>Kaeli Swift</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-3.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -675,7 +673,7 @@
                         <p>Regina Mossotti</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-4.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -684,7 +682,7 @@
                         <p>Stephen Gianotti</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-5.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -693,7 +691,7 @@
                         <p>Orit Peleg</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-6.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -702,7 +700,7 @@
                         <p>Dr. Thomas Boothby</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-7.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -711,7 +709,7 @@
                         <p>Lauren Pharr</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-10-image-8.jpeg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -725,9 +723,9 @@
         <!-- part-11  -->
         <div class="part-3 part-11">
             <h2 class="heading-margin">Heard on TED Radio Hour</h2>
-            <div class="part-3-inner slider" style="overflow-x: visible;">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-11-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -736,7 +734,7 @@
                         <p>YeYoon Kim</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-11-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -745,7 +743,7 @@
                         <p>Anne Madden</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-11-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -754,7 +752,7 @@
                         <p>Lera Boroditsky</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-11-image-4.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -763,7 +761,7 @@
                         <p>Bart Weetjens</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-11-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -778,9 +776,9 @@
         <!-- part-12  -->
         <div class="part-3 part-12">
             <h2 class="heading-margin">Meet the TED Audio Collective</h2>
-            <div class="part-3-inner slider" style="overflow-x: visible;">
+            <div class="part-3-inner main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-1.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -789,7 +787,7 @@
                         <p>How to Be a Better Human</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-2.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -798,7 +796,7 @@
                         <p>WorkLife with Adam Grant</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-3.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -807,7 +805,7 @@
                         <p>Far Flung</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-4.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -816,7 +814,7 @@
                         <p>The TED Interview</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-5.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -825,7 +823,7 @@
                         <p>TED Audio Collective</p>
                     </a>
                 </div>
-                <div class="part-3-items">
+                <div class="part-3-items carousel-cell">
                     <a href=""><div class="part-2-image">
                         <img src="images/part-12-image-6.jpg" alt=""><i class="fa-solid fa-circle-play fa-2xl" style="color: #e6e6e6;"></i>
                         </div>
@@ -970,33 +968,34 @@
                 <div class="footer-bottom-right">&copy; TED Conferences, LLC. All rights reserved.</div>
             </div>
         </footer>
-    </div>
+   
+
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
     <!-- <script>
         const slider = document.querySelector('.slider');
-// const leftarrow = document.querySelector('.left');
+const leftarrow = document.querySelector('.left');
 const rightarrow = document.querySelector('.right');
 
 var sectionIndex = 0;
 
+const totalSlides = document.querySelectorAll('.slider .part-3-items').length;
+console.log(totalSlides);
+const slideWidth = document.querySelector('.part-3-items').clientWidth;
 
 rightarrow.addEventListener('click', function() {
     if(240<screen.width<625)
-    {sectionIndex = (sectionIndex < 7) ? sectionIndex + 1 : 0;
-    slider.style.transform = 'translate(' + (sectionIndex) * -97 + 'vw )';
+    {sectionIndex = (sectionIndex < totalSlides) ? sectionIndex + 1 : 0;
+    slider.style.transform = 'translate(' + (sectionIndex) * -slideWidth + '% )';
     }
-    // else
-    // {
-    //     sectionIndex = (sectionIndex < 3) ? sectionIndex + 1 : 0;
-    // slider.style.transform = 'translate(' + (sectionIndex) * -90 + '% )';
-    // }
 });
 
-// leftarrow.addEventListener('click', function() {
-//     sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0;
-//     slider.style.transform = 'translate(' + (sectionIndex) * -100 + '% )';
-// });
+leftarrow.addEventListener('click', function() {
+    sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0;
+    slider.style.transform = 'translate(' + (sectionIndex) * slideWidth+ '% )';
+});
     </script> -->
-    <script>
+    <!-- <script>
         let currentIndex = 0;
         const totalSlides = document.querySelectorAll('.slider .part-3-items').length;
         var Slides = totalSlides - 2;
@@ -1007,19 +1006,21 @@ rightarrow.addEventListener('click', function() {
             else {
                 const carousel = document.querySelector('.slider');
                 const slideWidth = document.querySelector('.part-3-items').clientWidth;
-
+                console.log(slideWidth);
+                
                 currentIndex = (index + Slides) % Slides;
-                const translateValue = -currentIndex * slideWidth;
+                console.log(currentIndex);
+                const translateValue = -currentIndex * (slideWidth);
                 carousel.style.transform = `translateX(${translateValue}px)`;
             }
         }
 
         function nextSlide() {
-            if (currentIndex < totalSlides) {
+            if (currentIndex < totalSlides-2) {
                 showSlide(currentIndex + 1);
             }
-            else {
-                currentIndex = 0;
+            else{
+                return;
             }
 
         }
@@ -1027,7 +1028,8 @@ rightarrow.addEventListener('click', function() {
         function prevSlide() {
             showSlide(currentIndex - 1);
         }
-    </script>
+    </script> -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script>const hamburger = document.querySelector('.hamburger');
         const bar1 = document.querySelector('.bar1');
         const bar2 = document.querySelector('.bar2');

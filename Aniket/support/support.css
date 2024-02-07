@@ -10,8 +10,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding:0 24px; */
     box-shadow: 0px 2px 1px 0px rgba(0,0,0,.1);
+    margin:0 4%;
 }
 /* hamburger  */
 .bar1 , .bar2 , .bar3{
@@ -151,15 +151,13 @@ z-index: 25;
     font-weight: bold;
     color:#494949;
 }
-.nav-right ul li .menu{
+/* .nav-right ul li .menu{
     background-color: #D91E18;
     width:30px;
     height:30px;
     display: none;
-}
-.nav-right ul li:hover{
-    background-color: rgb(249 250 251);
-}
+} */
+
 .nav-right ul li:hover .menu{
     display: block;
 }
@@ -167,8 +165,9 @@ z-index: 25;
     background-color:white;
     color:#494949;
     margin:0;
+    text-decoration: none;
 }
-.nav-right a{
+.suppo{
     color:white;
     background-color: #D91E18;
     padding:12px 16px;
@@ -177,6 +176,12 @@ z-index: 25;
     border-radius: 5px;
     text-decoration: none;
     margin-right: 24px;
+}
+.nav-right ul li:hover{
+    background-color: rgb(249 250 251);
+}
+.suppo:hover{
+    background-color: rgb(127 29 29);
 }
 .nav-right .material-icons{
     font-size: 1.95rem; 
@@ -217,9 +222,11 @@ form{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: space-between;
     box-shadow: 0 0 6px 8px rgb(240, 232, 232);
-    margin:10%;
+    margin:0 20%;
     background-color: #ffffff;
+    gap:10px;
 }
 .textalign{
     text-align: start;
@@ -571,22 +578,19 @@ width:25%;
    margin-top:3%;
 }
 .socialmediabg{
-   margin: 15px 8px 0 0;
-   width:14%;
-   height:53px;
-   background-color: #fff;
-   border-radius: 50%;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   object-fit: cover;
+   margin: 15px 12px 0 0;
+   display:inline-flex;
+   flex-direction: row;
    margin-bottom: 30px;
 }
 .social-media-icons img{
-   width:30px;
+   width:35px;
    height:35px;
    margin:0;
-   border-radius: 50%;
+   /* border-radius: 50%; */
+}
+#size{
+    margin-top: 10px;
 }
 .fourth-footer-bottom img{
    margin:0;
@@ -609,9 +613,10 @@ width:25%;
         display: block;
     }
     header{
-        width:100vw;
+        width:92vw;
         height:65px;
         z-index: 15;
+        /* position: fixed; */
     }
 
     /* header media query end  */
@@ -729,7 +734,6 @@ width:25%;
     }
     .socialmediabg{
         width:35px;
-        height:35px;
     }
     .socialmediabg img{
         width:30px;
@@ -750,7 +754,7 @@ width:25%;
         margin:0 2%;
     }
     header{
-        width:100vw;
+        width:92vw;
         height:65px;
         z-index: 15;
     }
