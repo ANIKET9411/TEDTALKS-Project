@@ -6,10 +6,192 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-.header{
-    border: 2px solid black;
-    width: 100%;
-    height: 70px;
+/* header css  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,.1);
+    margin:0 4%;
+}
+/* hamburger  */
+.bar1 , .bar2 , .bar3{
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger{
+    display: none;
+    z-index: 11;
+    padding-left:10px;
+}
+
+.mobileNav{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    top: 67px;
+    left: -100vw;
+    transition: transform 0.3s;
+    /* z-index: 5; */
+    border-top: 3px solid #757575;
+    /* overflow: scroll; */
+}
+.mobileNav p{
+    margin-bottom:1.2rem;
+}
+.mobile-view{
+    overflow-y: scroll;
+    margin:2% 0% 2% 8%;
+    width:84%;
+    height:84Vh;
+}
+.mobilenav-items{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.mobilenav-items a{
+    width:40%;
+    margin-bottom:1.2rem;
+    text-decoration: none;
+    color:#121212;
+}
+.mobilenav-membership{
+    display: block;
+    text-align: center;
+    width:100%;
+    padding:15px 0;
+    color:white;
+    text-decoration: none;
+    background-color: #D91E18;
+}
+
+.openDrawer{
+    transform: translateX(100vw);
+}
+.animateBar1{
+    animation: flipBar1 0.5s;
+    animation-fill-mode: forwards;
+}
+.animateBar2{
+    animation: fadeBar2 0.5s;
+    animation-fill-mode: forwards;
+}
+.animateBar3{
+    animation: flipBar3 0.5s;
+    animation-fill-mode: forwards;
+}
+.position{
+    position: fixed;
+    /* z-index: 11; */
+}
+@keyframes flipBar1 {
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(45deg) translate(4px , 10px);
+    }
+}
+@keyframes fadeBar2 {
+    from{
+        transform: scaleX(1);
+        opacity : 1;
+    }to{
+        transform: scaleX(0);
+        opacity : 0;
+    }
+}
+@keyframes flipBar3 {
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(-45deg) translate(-2px , -7px);
+        transition: 0.1s;
+    }
+}
+
+
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+.nav-left img{
+width:68px;
+height:24px;
+margin-right:12px;
+z-index: 25;
+}
+.nav-left a{
+    text-decoration: none;
+    color: #757575;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right ul{
+    display: flex;
+}
+.nav-right ul li{
+    list-style: none;
+    padding:20px 12px;
+    font-size:12px;
+    font-weight: bold;
+    color:#494949;
+}
+/* .nav-right ul li .menu{
+    background-color: #D91E18;
+    width:30px;
+    height:30px;
+    display: none;
+} */
+
+.nav-right ul li:hover .menu{
+    display: block;
+}
+.nav-right ul li a{
+    background-color:white;
+    color:#494949;
+    margin:0;
+    text-decoration: none;
+}
+.suppo{
+    color:white;
+    background-color: #D91E18;
+    padding:12px 16px;
+    font-size:12px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.nav-right ul li:hover{
+    background-color: rgb(249 250 251);
+}
+.suppo:hover{
+    background-color: rgb(127 29 29);
+}
+.nav-right .material-icons{
+    font-size: 1.95rem; 
+}
+.mobile-signin{
+    display: none;
+    text-decoration: none;
+    color:#121212;
 }
 .container {
     /* height: 4000px; */
@@ -238,6 +420,21 @@
 
 
 @media only screen and (240px<=width<=767px){
+     /* header media query for phone  */
+     .nav-right{
+        display: none;
+    }
+    .nav-left a{
+        display: none;
+    }
+    .hamburger,.mobile-signin{
+        display: block;
+    }
+    header{
+        width:92vw;
+        height:65px;
+        z-index: 15;
+    }
     .main_container {
         /* border: 2px solid green; */
         height: 100%;
@@ -332,7 +529,23 @@
     .first_container h3{
         display: none;
     }
-
+  /* header media query for tablet  */
+  .nav-right{
+    display: none;
+}
+.nav-left a{
+    display: none;
+}
+.hamburger,.mobile-signin{
+    display: block;
+    margin:0 2%;
+}
+header{
+    width:92vw;
+    height:65px;
+    z-index: 15;
+}
+/* header end  */
 
     .main_container {
         /* border: 2px solid green; */
@@ -377,7 +590,7 @@
         padding-left: 5px;
         /* margin: 35px 0; */
         width: 100%;
-        /* height: 100%; */
+        height: 100%;
         /* border: 2px solid red; */
     }
 
