@@ -194,6 +194,7 @@
 }
 .points:hover .fa-solid {
 color: #757575;
+cursor: pointer;
 }
 
  
