@@ -9,7 +9,23 @@ Welcome to TEDTALKS Project! This project aims to replicate and enhance the "Wat
 ## Features
 ### Watch Section
 
-In this section, we aim to mirror the original TEDTALKS website's "Watch" section. Key features include:
+In this section, we aim to mirror the original TEDTALKS website's "Watch" section.
+
+**TED Talks:** It  Includes the Library of TED Talks and Speakers.
+
+**Playlists:** It Includes the Collections of TED Talks, for Curious Minds.
+
+**TED Series:** It Includes Fascinating Topics and Deeper Knowledge of Orginal Videos from TED.
+
+**TED-Ed Videos:** It Showcase the Creativity from where we can Watch, Share & Create Lessons with TED.
+
+**TEDx Talks:** It Showcases the Talks from Indepedent Local Events.
+
+
+
+
+
+*Key features include:*
 - **Responsive Design:** Ensure the values section is visually appealing and functional on various devices.
 
 - **Content Accuracy:** Accurately represent TEDTALK's core values as presented on the original website.
