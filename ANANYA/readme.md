@@ -25,7 +25,7 @@ In this section, we aim to mirror the original TEDTALKS website's "About" and "P
 ### About Section:
 
 #### *About*
-
+<img width="930" alt="about1" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/87d26a5d-c116-4d1b-8e0b-974950334547">
 
 
 
