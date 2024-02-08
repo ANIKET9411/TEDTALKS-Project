@@ -697,7 +697,7 @@ z-index: 25;
   .footer{
     display: flex;
     flex-direction: row;
-    height:80%;
+    /* height:80%; */
     width:100%;
     background-color: black;
     
@@ -834,8 +834,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
   }
 
   .footer_list li{
@@ -844,5 +842,19 @@ header{
   .rights{
     margin-bottom: 5px;
   }
-
+  .style{
+    display:none;
+  }
+  .ho_jayega{
+    margin-left: 0;
+}
+.aa_gaya{
+    margin-left: 0;
+}
+.hmmm{
+    margin-left: 0;
+}
+.hai{
+    margin-left: 0;
+}
 }
