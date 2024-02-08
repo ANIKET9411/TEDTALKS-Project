@@ -27,17 +27,20 @@ In this section, we aim to mirror the original TEDTALKS website's "About" and "P
 #### *About*
 <img width="930" alt="about1" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/87d26a5d-c116-4d1b-8e0b-974950334547">
 
+<img width="613" alt="about2" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/34083b54-709d-473f-b381-6bd7e4a5cad6">
+
+<img width="797" alt="about3" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/8635fd3f-e3a8-40ea-b4ab-7308821d83e3">
+#### *Participate*
+
+<img width="931" alt="participate1" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/cbf4ca1a-0315-44a5-9bf2-22463b08dffa">
+
+<img width="859" alt="participate2" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/aa38b766-47ce-42e0-ac69-6758534080e1">
+
+<img width="750" alt="participate3" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/18e7dca7-021c-4352-bf4f-17124d2a55eb">
 
 
-
-
-
-
-
-
-
-
-
+#### *Footer*
+<img width="946" alt="footer" src="https://github.com/ANIKET9411/TEDTALKS-Project/assets/85674225/ae63c9e9-13e8-4237-b867-f0b76eff1451">
 
 ## Acknowledgement
 
