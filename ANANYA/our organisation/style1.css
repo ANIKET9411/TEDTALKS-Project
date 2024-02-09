@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+.none{
+  display: none;
+}
 /* header css start */
 
 header {
@@ -112,7 +115,7 @@ header {
   position: fixed;
   /* z-index: 11; */
 }
-.
+
 @keyframes flipBar1 {
   from {
       transform: rotate(0);
@@ -226,8 +229,9 @@ header {
 .main_container{
     height:100%;
     width:100%;
-    display: flex;
+    /* display: flex; */
     gap:50px;
+    padding-left: 5px;
     
     
 }
@@ -322,7 +326,7 @@ header {
     flex-direction: column;
     justify-content: center;
     border-left: 1px solid black;
-    padding-left: 20px;
+    
     
 }
 .start_container{
