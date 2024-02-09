@@ -367,6 +367,10 @@ z-index: 25;
     border-radius: 5px;
     /* margin: 20px 0; */
 }
+.part-1-left span a{
+    text-decoration: none;
+    color: white;
+}
 .part-1-right{
     width:50%;
     overflow: hidden;
@@ -454,7 +458,7 @@ z-index: 25;
     flex-direction: column;
     align-items: center;
     padding:0 1%;
-    height:300px;
+    height:350px;
  }
  .part-3-items a{
     width:100%;
@@ -677,6 +681,7 @@ width:25%;
 @media only screen and (240px<=width<=767px) {
     .part-3-items{
         width:49%;
+        height:300px;
     }
     .nav-right{
         display: none;
